@@ -1,0 +1,38 @@
+{
+  "name": "pgsql-ts-helper",
+  "version": "1.0.0",
+  "description": "A TypeScript helper library for PostgreSQL with pg-promise",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "pg": "^8.13.1",
+    "@types/pg-promise": "^0.0.28"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^18.19.75",
+    "@types/pg": "^8.11.11"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishekprakash256/pgsql-ts-helper.git"
+  },
+  "keywords": [
+    "typescript",
+    "postgres",
+    "pg-promise",
+    "database",
+    "helper"
+  ],
+  "author": "Abhishek Prakash",
+  "license": "MIT"
+}

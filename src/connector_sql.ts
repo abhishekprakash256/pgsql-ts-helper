@@ -1,5 +1,5 @@
 /*
-The function to make the connection with postgresql    
+The function to make the connection with postgresql
 
 */
 
@@ -18,4 +18,3 @@ client.connect()
   .catch(err => console.error(" Database Connection Error:", err));
 
 export { client };
-
