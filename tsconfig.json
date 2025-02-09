@@ -7,6 +7,6 @@
     "moduleResolution": "node"       // Ensures Node modules are resolved correctly
   },
   "include": [
-    "connector_sql.ts"               // Include your files or directories here
+    "src/connector_sql.ts"               // Include your files or directories here
   ]
 }
