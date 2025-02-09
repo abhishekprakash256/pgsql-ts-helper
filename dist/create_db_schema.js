@@ -39,7 +39,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var connector_sql_1 = require("./connector_sql"); // Import client
+var connector_sql_1 = require("./connector_sql"); // Import client  
 function setupDatabase() {
     return __awaiter(this, void 0, void 0, function () {
         var error_1;
