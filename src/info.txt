@@ -21,4 +21,5 @@ instructions
 2. run the image in src dir with init.sql using the command above 
 3. Make the package by "npx tsc" 
 4. Check the table and relation by using create_db_schema.js
+5. Install the package use npm install git@github.com:abhishekprakash256/pgsql-ts-helper.git
 
