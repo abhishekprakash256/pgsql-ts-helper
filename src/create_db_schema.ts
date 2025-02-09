@@ -2,7 +2,7 @@
 file to create the db and db schema and tables 
 */
 
-import { client } from './connector_sql';  // Import client
+import { client } from './connector_sql';  // Import client  
 
 async function setupDatabase() {   
     try {

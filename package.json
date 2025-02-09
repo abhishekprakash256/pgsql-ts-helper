@@ -6,5 +6,23 @@
     "@types/node": "^22.13.1",
     "@types/pg": "^8.11.11",
     "typescript": "^5.7.3"
-  }
+  },
+  "name": "pgsql-ts-helper",
+  "version": "1.0.0",
+  "description": "`pg-ts-helper` is a TypeScript package designed to simplify interactions with PostgreSQL databases. It provides easy-to-use methods for performing CRUD operations, as well as advanced features like upsert, pagination, record existence checks, and more. Whether you're building a small application or a large-scale system, this package helps you work with PostgreSQL seamlessly and efficiently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekprakash256/pgsql-ts-helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekprakash256/pgsql-ts-helper/issues"
+  },
+  "homepage": "https://github.com/abhishekprakash256/pgsql-ts-helper#readme"
 }

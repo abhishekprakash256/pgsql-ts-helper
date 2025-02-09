@@ -5,8 +5,8 @@ The function to make the connection with postgresql
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.client = void 0;
-var pg_1 = require("pg");
-var client = new pg_1.Client({
+const pg_1 = require("pg");
+const client = new pg_1.Client({
     user: 'abhi',
     host: 'localhost',
     database: 'contact',
@@ -15,6 +15,7 @@ var client = new pg_1.Client({
 });
 exports.client = client;
 client.connect()
-    .then(function () { return console.log("Connected to PostgreSQL"); })
-    .catch(function (err) { return console.error(" Database Connection Error:", err); });
+    .then(() => console.log("Connected to PostgreSQL"))
+    .catch(err => console.error(" Database Connection Error:", err));
 //console.log(client) ; 
+//# sourceMappingURL=connector_sql.js.map
