@@ -1,6 +1,6 @@
 # **pg-ts-helper**
 
-`pg-ts-helper` is a TypeScript package designed to simplify interactions with PostgreSQL databases. It provides easy-to-use methods for performing CRUD operations, as well as advanced features like upsert, pagination, record existence checks, and more. Whether you're building a small application or a large-scale system, this package helps you work with PostgreSQL seamlessly and efficiently.
+`pgsql-ts-helper` is a TypeScript package designed to simplify interactions with PostgreSQL databases. It provides easy-to-use methods for performing CRUD operations, as well as advanced features like upsert, pagination, record existence checks, and more. Whether you're building a small application or a large-scale system, this package helps you work with PostgreSQL seamlessly and efficiently.
 
 ## **Features**
 
@@ -15,12 +15,12 @@
 
 ## **Installation**
 
-To install `pg-ts-helper`, use npm or yarn:
+To install `pgsql-ts-helper`, use npm or yarn:
 
 ```bash
-npm install pg-ts-helper
+npm install git@github.com:abhishekprakash256/pgsql-ts-helper.git
 # or
-yarn add pg-ts-helper
+yarn add npm install git@github.com:abhishekprakash256/pgsql-ts-helper.git
 ```
 
 Ensure that you have PostgreSQL running and accessible before using this package.
@@ -32,28 +32,10 @@ Ensure that you have PostgreSQL running and accessible before using this package
 First, import the helper class into your TypeScript file:
 
 ```typescript
-import { Helper_Fun } from 'pg-ts-helper';
+import { Helper_Fun } from 'pgsql-ts-helper';
 ```
 
-### **2. Initialize PostgreSQL Client**
-
-You need to create and configure a PostgreSQL client (using the `pg` package):
-
-```typescript
-import { Client } from 'pg';
-
-const client = new Client({
-  user: 'your-user',
-  host: 'localhost',
-  database: 'your-database',
-  password: 'your-password',
-  port: 5432,
-});
-
-await client.connect();
-```
-
-### **3. Create an Instance of `Helper_Fun`**
+### **2. Create an Instance of `Helper_Fun`**
 
 You can now instantiate the `Helper_Fun` class and start performing operations:
 
@@ -61,7 +43,7 @@ You can now instantiate the `Helper_Fun` class and start performing operations:
 const dbHelper = new Helper_Fun(client);
 ```
 
-### **4. Example Operations**
+### **3. Example Operations**
 
 #### **Insert a Record**
 
