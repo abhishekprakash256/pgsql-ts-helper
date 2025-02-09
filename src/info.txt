@@ -17,5 +17,8 @@ docker rm $(docker ps -aq)
 
 
 instructions 
-1. the docker run command makes the user , database and sql schema when running
-2. 
+1. install the docker postgresql image 
+2. run the image in src dir with init.sql using the command above 
+3. Make the package by "npx tsc" 
+4. Check the table and relation by using create_db_schema.js
+
