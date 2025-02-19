@@ -34,8 +34,8 @@ jobs:
         run: npm install
 
       # Step 4: Run TypeScript compilation check (optional)
-      #- name: Check TypeScript compilation
-      #  run: npx tsc --noEmit  # This checks TypeScript syntax without generating files
+      - name: Check TypeScript compilation
+        run: npx tsc --noEmit  # This checks TypeScript syntax without generating files
 
       # Step 5: Run tests (using Jest or any other testing framework)
       #- name: Run tests
