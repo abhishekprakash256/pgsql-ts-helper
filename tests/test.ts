@@ -9,8 +9,8 @@ the file to insert the data into the database
 const DATA_BASE_NAME: string = 'contact'; 
 const TABLE_NAME: string = 'contact.contacts'; 
 
-import { Helper_Fun } from './crud_operartions';
-import { client } from './connector_sql';
+import { Helper_Fun } from '../src/crud_operartions';
+import { client } from '../src/connector_sql';
 
 
 // Inserting a new record
