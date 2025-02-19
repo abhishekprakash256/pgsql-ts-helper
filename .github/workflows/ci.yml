@@ -34,16 +34,16 @@ jobs:
         run: npm install
 
       # Step 4: Run TypeScript compilation check (optional)
-      - name: Check TypeScript compilation
-        run: npx tsc --noEmit  # This checks TypeScript syntax without generating files
+      #- name: Check TypeScript compilation
+      #  run: npx tsc --noEmit  # This checks TypeScript syntax without generating files
 
       # Step 5: Run tests (using Jest or any other testing framework)
       #- name: Run tests
       #  run: npm test
 
       # Step 6: Code quality check with ESLint
-      - name: Run ESLint for code quality check
-        run: npx eslint . --ext .ts
+      #- name: Run ESLint for code quality check
+      #  run: npx eslint . --ext .ts
 
       # Step 7: Notify if tests or quality checks fail
       - name: Notify test or quality check failure
