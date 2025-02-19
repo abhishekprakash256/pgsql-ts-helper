@@ -64,7 +64,7 @@ const bulkEntries = [
 ];
 const upsertEntry = {
     first_name: 'Alice',
-    last_name: 'Williams',
+    last_name: 'Williams', // Changed last name to test update
     phone: '987654321',
     address: JSON.stringify({
         street: "456 Elm St",
