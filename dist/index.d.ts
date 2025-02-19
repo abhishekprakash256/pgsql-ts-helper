@@ -1,1 +1,2 @@
-export declare const greet: (name: string) => string;
+export { Helper_Fun } from './crud_operartions';
+export { client } from './connector_sql';

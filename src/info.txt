@@ -27,6 +27,6 @@ instructions
 
 dev steps -- 
 
-setps to make package and publish -- 
-npm run build , generates the ts file and then push the code 
+tsc  -- the command to compile 
+then git commands
 
