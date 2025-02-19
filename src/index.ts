@@ -1,4 +1,3 @@
 // src/index.ts
-export const greet = (name: string) => {
-    return `Hello, ${name}!`;
-};
+export { Helper_Fun } from './crud_operartions';
+export { client } from './connector_sql';

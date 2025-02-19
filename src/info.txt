@@ -23,3 +23,10 @@ instructions
 4. Check the table and relation by using create_db_schema.js
 5. Install the package use npm install git@github.com:abhishekprakash256/pgsql-ts-helper.git
 
+
+
+dev steps -- 
+
+setps to make package and publish -- 
+npm run build , generates the ts file and then push the code 
+
