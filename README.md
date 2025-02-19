@@ -58,6 +58,7 @@ First, import the helper class into your TypeScript file:
 
 ```typescript
 import { Helper_Fun } from 'pgsql-ts-helper';
+import { client } from 'pgsql-ts-helper';
 ```
 
 ### **2. Create an Instance of `Helper_Fun`**
