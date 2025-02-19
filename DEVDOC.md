@@ -185,7 +185,13 @@ If you want to force TypeScript to rebuild everything from scratch, run:
 npx tsc --force
 ```
 
-This forces a rebuild and resolves any stale build artifacts.
+### **20. change the lib**
+
+Change the lib in the tsconfig if not compiling
+
+"lib": ["ES2015", "DOM"],
+
+Make the tsc compiler if issues happen
 
 ---
 
