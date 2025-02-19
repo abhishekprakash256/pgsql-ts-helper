@@ -123,7 +123,7 @@ async function test_fun() {
 
     }
 
-    catch (error) {
+    catch (error) {   
 
         console.error("Error:", error);
     } 
