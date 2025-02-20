@@ -38,8 +38,8 @@ jobs:
         run: npx tsc --noEmit  # This checks TypeScript syntax without generating files
 
       # Step 5: Run tests (using Jest or any other testing framework)
-      #- name: Run tests
-      #  run: npm test
+      - name: Run tests
+        run: npm test
 
       # Step 6: Code quality check with ESLint
       #- name: Run ESLint for code quality check
