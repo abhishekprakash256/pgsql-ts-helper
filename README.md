@@ -25,8 +25,6 @@ yarn add npm install git@github.com:abhishekprakash256/pgsql-ts-helper.git
 
 Ensure that you have PostgreSQL running and accessible before using this package.
 
-## **Usage**
-
 ## Docker notes
 
 Make sure docker pgresql conatiner is running follow the commmands 
@@ -50,7 +48,16 @@ docker rm $(docker ps -aq)
 
 ```
 
+## Run tests 
 
+```bash
+npm test
+
+```
+
+Run the automated tests , manual running test files are in test folder as well , Ensure docker postgresql container is running with proper sql init file.
+
+## **Usage**
 
 ### **1. Import the Helper**
 
