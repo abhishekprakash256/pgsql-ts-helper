@@ -14,6 +14,7 @@ $$;
 -- Create the schema only if it doesn't exist
 CREATE SCHEMA IF NOT EXISTS contact;
 
+--change the schema to login data 
 -- Create the table only if it doesn't exist
 CREATE TABLE IF NOT EXISTS contact.contacts (
     id SERIAL PRIMARY KEY,
