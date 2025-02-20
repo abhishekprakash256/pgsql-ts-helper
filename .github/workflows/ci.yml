@@ -41,11 +41,7 @@ jobs:
       - name: Run tests
         run: npm test
 
-      # Step 6: Code quality check with ESLint
-      #- name: Run ESLint for code quality check
-      #  run: npx eslint . --ext .ts
-
-      # Step 7: Notify if tests or quality checks fail
+      # Step 6: Notify if tests or quality checks fail
       - name: Notify test or quality check failure
         if: failure()
         run: echo "Tests or code quality checks failed!"
